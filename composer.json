@@ -1,0 +1,17 @@
+{
+  "name": "diembzz/yii2custom",
+  "type": "library",
+  "description": "Yii Custom",
+  "version": "0.0.9",
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "yii2custom\\": "src"
+    },
+    "files": [
+      "src/global.php"
+    ]
+  }
+}
